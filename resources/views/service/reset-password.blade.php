@@ -11,7 +11,7 @@
             <form action="{{route('password.update')}}" method="post">
                 @csrf
                 <input type="hidden" value="{{$request->token}}" name="token">
-                <span>Email</span><br>
+                <span>Email</span><br> 
                 <input type="text" name="email"><br>
                 <span>Пароль</span><br>
                 <input type="text" name="password"><br>
